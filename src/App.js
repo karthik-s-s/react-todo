@@ -38,7 +38,7 @@ function App() {
             return(
         <div className="todo">
           <div className="left">
-            <input onChange={(e)=>{
+            {/* <input onChange={(e)=>{
               console.log(e.target.checked);//boolean check box value
               console.log(value);//full object of map todo
               console.log(index);
@@ -47,10 +47,10 @@ function App() {
                   value2.status = e.target.checked
                   
                 }
-                return value2
+                return value2                        // for finished task
               }))
               
-            }} type="checkbox" name="" id="" />
+            }} type="checkbox" name="" id="" /> */}
             <p>{value.text}</p>
           </div>
           <div className="right">
